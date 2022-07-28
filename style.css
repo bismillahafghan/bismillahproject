@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    margin:20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color:black;
+
+}
+ul li a:hover{
+   background-color: brown;
+   color:yellow;
+   font-weight: 900;
+   font-size:25px;
+
+
+}
+main{
+    border-top:2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh -100px);
+}
+.text{
+    weight:30%;
+}
+main h1{
+    background-color:blue;
+    color:yellow;
+    display: inline-block;
+    
+}
+main h2{
+    background-color: blue;
+    color:orange;
+    margin:20px 0;
+    display: inline-block;
+}
+main p{
+    font-weight: 800;
+    color:black;
+    line-height: 25px;
+    margin:20px 0;
+
+}
+main button{
+    padding:10px;
+    background-color: aqua;
+    font-size:15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:black;
+    border-radius: 100px;  
+}
+.signbtn{
+    padding:14px;
+    background-color: aqua;
+    font-size:18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:black; 
+    border-radius: 100px;  
+}
+section{
+   position:absolute;
+   right:410px;
+   top: 570px;
+   background-color: brown;
+   color:yellow;
+   font-size:30px;
+}
